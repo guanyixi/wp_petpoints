@@ -1,0 +1,63 @@
+{
+    "fields": [
+        {"title": "Name",         "field_name": "AnimalName"}, 
+        {"title": "Species",         "field_name": "Species"}, 
+        {"title": "Sex",          "field_name": "Sex"},
+        {"title": "Altered",          "field_name": "Altered"},
+        {"title": "PrimaryBreed",        "field_name": "PrimaryBreed",     "type": "breed"},
+        {"title": "SecondaryBreed",        "field_name": "SecondaryBreed" },
+        {"title": "PrimaryColor",        "field_name": "PrimaryColor" },
+        {"title": "SecondaryColor",        "field_name": "SecondaryColor" },
+        {"title": "Age",          "field_name": "Age",              "type": "age"},
+
+
+        {"title": "Size",        "field_name": "Size" },
+        {"title": "Housetrained",        "field_name": "Housetrained" },
+        {"title": "Declawed",        "field_name": "Declawed" },
+        {"title": "Price",        "field_name": "Price" },
+        {"title": "LastIntakeDate",        "field_name": "LastIntakeDate" },
+        {"title": "Locationze",        "field_name": "Location" },
+        {"title": "Dsc",        "field_name": "Dsc" },
+        {"title": "Photo1",        "field_name": "Photo1" },
+        {"title": "OnHold",        "field_name": "OnHold" },
+        {"title": "SpecialNeeds",        "field_name": "SpecialNeeds" },
+
+
+        {"title": "NoDogs",        "field_name": "NoDogs" },
+        {"title": "NoCats",        "field_name": "NoCats" },
+        {"title": "NoKids",        "field_name": "NoKids" },
+        {"title": "BehaviorResult",     "field_name": "BehaviorResult"},
+        {"title": "MemoList",        "field_name": "MemoList" },
+        {"title": "Site",        "field_name": "Site" },
+        {"title": "DateOfSurrender",        "field_name": "DateOfSurrender" },
+        {"title": "TimeInFormerHome",        "field_name": "TimeInFormerHome" },
+        {"title": "ReasonForSurrender",        "field_name": "ReasonForSurrender" },
+        {"title": "PrevEnvironment",        "field_name": "PrevEnvironment" },
+
+
+        {"title": "LivedWithChildren",        "field_name": "LivedWithChildren" },
+        {"title": "LivedWithAnimals",        "field_name": "LivedWithAnimals" },
+        {"title": "LivedWithAnimalTypes",        "field_name": "LivedWithAnimalTypes" },
+        {"title": "BodyWeight",        "field_name": "BodyWeight" },
+        {"title": "ARN",        "field_name": "ARN" },
+        {"title": "VideoID",        "field_name": "VideoID" },
+        {"title": "BehaviorTestList",        "field_name": "BehaviorTestList" },
+        {"title": "Stage",        "field_name": "Stage" },
+        {"title": "AnimalType",        "field_name": "AnimalType" },
+        {"title": "AgeGroup",        "field_name": "AgeGroup" },
+
+
+        {"title": "WildlifeIntakeInjury",        "field_name": "WildlifeIntakeInjury" },
+        {"title": "WildlifeIntakeCause",        "field_name": "WildlifeIntakeCause" },
+        {"title": "BuddyID",        "field_name": "BuddyID" },
+        {"title": "Featured",        "field_name": "Featured" },
+        {"title": "Sublocation",        "field_name": "Sublocation" },
+        {"title": "ChipNumber",        "field_name": "ChipNumber" },
+        {"title": "ColorPattern",        "field_name": "ColorPattern" }
+    ],
+    "be_descriptions": { 
+        "green_be": "This animal needs training or has special needs. Should go to an adult and dog savvy home.",
+        "orange_be": "This animal needs training. Better with older children and people who have owned dogs previously",
+        "purple_be": "This animal is friendly and trainable. Does well with children or novice pet owners."
+    }
+}

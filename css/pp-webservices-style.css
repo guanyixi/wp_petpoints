@@ -1,0 +1,173 @@
+/*Adopt page*/
+.animal-picture{
+  width:100%;
+  height: 0;
+  padding-bottom:100%;
+  display: block;
+  background:no-repeat center center;
+  background-size:cover;
+}
+
+/*Pet detail page*/
+
+.single-animal{
+/*  display:flex;
+  flex-wrap: wrap;*/
+}
+
+/*Left side*/
+.animal-picture-container{
+  width:35%;
+  display: inline-block;
+  margin:0 -2px;
+  padding:20px 15px;
+}
+
+.view-animal-picture{
+  width:100%;
+  height: 0;
+  padding-bottom: 100%;
+  background:center center no-repeat;
+  background-size:cover;
+}
+
+#photo-links{
+  padding-top:15px;
+}
+
+.thumbnail{
+  float:left;
+  display: inline-block;
+  width:30%;
+  height: 0;
+  padding-bottom:30%;
+  background:center center no-repeat;
+  background-size:cover;
+  vertical-align: top;
+}
+
+.thumbnail:nth-child(2){
+  margin:0 5%;
+}
+
+.no-video{
+  display: none;
+}
+
+.animal-video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-top:30px;
+}
+.animal-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Right side*/
+.animal-details{
+    width:65%;
+    display: inline-block;
+    margin:0 -2px;
+    padding:10px 15px 20px 60px;
+}
+
+.animal-details p{
+  padding:0;
+  margin:0 0 25px 0;
+}
+
+.animal-details .about h2{
+  padding-bottom:25px;
+}
+
+.meet-me{
+  padding-bottom:30px;
+}
+
+.basic-info{
+  margin-bottom:40px;
+  padding:20px 15px;
+  flex-wrap: wrap;
+  background-color:#f4f4f4;
+}
+
+.basic-info-unit{
+  width:25%;
+  display: inline-block;
+  margin: 0 -2px;
+  padding:20px 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.basic-info-unit img{
+  width:100%;
+  max-width:80px;
+  height: auto;
+}
+
+.basic-info-unit .title{
+    color: #00A79D;
+    font-size:20px;
+    padding:10px 0;
+    max-width:150px;
+    margin:0 auto;
+}
+
+.basic-info-unit .content{
+    max-width:150px;
+    margin:0 auto;
+    color:#58595B;
+}
+
+@media(max-width:992px){
+    .animal-picture-container, .animal-details{
+      display: block;
+      margin:0;
+      width:100%;
+    }
+    .animal-details{
+      padding:20px 15px;
+    }
+    
+}
+
+@media(max-width:600px){
+    .basic-info-unit{
+      width:50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
